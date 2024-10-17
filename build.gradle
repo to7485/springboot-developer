@@ -52,7 +52,7 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-jar{
-	enable = false
+tasks.named('jar') {
+    enabled = false
 }
 
