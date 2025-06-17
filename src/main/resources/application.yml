@@ -1,0 +1,12 @@
+server:
+    port: 5000
+spring:
+    jpa:
+      show-sql: true
+      database-platform: org.hibernate.dialect.MySQL8Dialect
+      hibernate:
+        ddl-auto: update
+    datasource: 
+      url: jdbc:mysql://awseb-e-fknfn4334q-stack-awsebrdsdatabase-8tgmrdzibxj6.c3oy2a8mk4pq.ap-northeast-2.rds.amazonaws.com:3306/ebdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      username : testpm
+      password : dlguswns13!
